@@ -14,7 +14,7 @@ define Package/test-module
   CATEGORY:=Utilities
   TITLE:=Custom WiFi SSID Setter
   PKGARCH:=all
-  DEPENDS:=+uci
+  DEPENDS:=
 endef
 
 define Package/test-module/description
