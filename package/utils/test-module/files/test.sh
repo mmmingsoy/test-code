@@ -1,7 +1,7 @@
 #!/bin/sh /etc/rc.common
 
 #最后执行
-START = 99
+START=99
 
 #只在第一次启动运行
 [ -f "/etc/ssid-set-done" ] && exit 0
