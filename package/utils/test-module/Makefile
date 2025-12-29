@@ -26,7 +26,7 @@ endef
 
 define Package/test-module/install
     $(INSTALL_DIR) $(1)/etc/init.d
-    $(INSTALL_BIN) ./files/test.sh $(1)/etc/init.d/test-module  # 改这里
+    $(INSTALL_BIN) ./files/test.sh $(1)/etc/init.d/test-module
 endef
 
 $(eval $(call BuildPackage,test-module))
